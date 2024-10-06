@@ -1,12 +1,123 @@
-#header {
-    background-color: #BFBFBF;
-    width: 500px;
-    height: 250px;
-    font-size: 50px;
+body {
+    font-family: 'Times New Roman', Times, serif;
 }
 
+#header {
+    display: flex;
+    background-color: #BFBFBF;
+    width: auto;
+    /* height: 250px; */
+    font-size: 50px;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+/* .headerbutton:hover { */
+/*     background-color: skyblue; */
+/**/
+/* } */
+.mainPage_button {
+    background-color: #BFBFBF;
+    width: auto;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    border-radius: 1rem;
+    margin-left: 2%;
+    font-size: 24px;
+}
+
+.mainPage_button:hover {
+    background-color: dodgerblue;
+}
+
+
 #userpicture {
+    margin-left: auto;
     width: 70px;
     height: 70px;
-    text-anchor: end;
 }
+
+.bold {
+    font-weight: bold;
+}
+
+.loginbox {
+    display: flex;
+    background-color: #D8D8D8;
+    width: 300px;
+    font-size: 24px;
+    border-radius: 15px;
+    padding: 20px;
+    /* justify-items: center; */
+    /* align-content: center; */
+    /* justify-content: center; */
+    margin: auto;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.inputs {
+    margin-top: 5px;
+    display: flex;
+    gap: 6px;
+    flex-direction: column;
+
+}
+
+#password,
+#username {
+    width: 130px;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-bottom: 10px; */
+    /* gap: 10px; */
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+#loginbutton~a {
+
+    color: #00B0F0;
+}
+
+#loginbutton {
+
+    color: white;
+    background-color: #1F477D;
+    width: 80px;
+    border: none;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 6px;
+    margin-bottom: 10px;
+
+}
+
+#createaccount {
+    color: #00B0F0;
+
+}
+
+.linkbutton {
+    text-decoration: none;
+}
+
+/* .centering { */
+/**/
+/*     display: flex; */
+/*     background-color: #BFBFBF; */
+/*     width: 500px; */
+/*     font-size: 16px; */
+/*     border-radius: 15px; */
+/*     padding: 20px; */
+/*     justify-items: center; */
+/*     align-content: center; */
+/*     justify-content: center; */
+/* } */

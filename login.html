@@ -11,22 +11,28 @@
 <body>
 
     <div id="header">
-        Home
+        <!-- <p class="headerbutton">Home</p> -->
+        <button class="mainPage_button" type="button">Home</button>
         <img id="userpicture" src="assets/user_without_pp.jpg" alt="users picture">
 
     </div>
-    <div>
-        <h1>Welcome to PostIT</h1><br>
-        <a href="https://youtube.com">Create an account</a><br>
+    <!-- <div class="centering"> -->
+    <div class="loginbox">
+        <p class="bold">Welcome to PostIT</p>
+        <a class="linkbutton" id="createaccount" href="https://youtube.com">Create an account</a><br>
         or<br>
         Please log in<br>
-        <label for="username">Username:</label><br>
-        <input type="text" id="username" name="username" required><br>
-        <label for="password">Password:</label><br>
-        <input type="password" name="password" required><br>
-        <button type="submit">Log in</button><br>
+        <!-- <label for="username">Username:</label><br> -->
+        <form action="index.html" method="POST">
+            <div class="inputs">
+                <input type="text" id="username" name="username" placeholder="Email" required><br>
+                <!-- <label for="password">Password:</label><br> -->
+                <input type="password" id="password" name="password" placeholder="Password" required><br>
+            </div>
+            <button id="loginbutton" type="submit">Log in</button><br>
+            <a class="linkbutton" href="index.html">Forget password</a><br>
+        </form>
 
-        <a href="https://youtube.com">Forget password</a><br>
 
     </div>
 </body>
