@@ -191,6 +191,11 @@ h1 {
     margin-bottom: 5px;
 }
 
+#christmas_Date {
+    color: crimson;
+    font-family: "Comic Sans MS";
+  }
+
 
 @media (max-width: 800px) {
     .flex-container {
