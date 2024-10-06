@@ -1,57 +1,73 @@
-
-
 body {
     background-color: white;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin: 0 auto;
 }
 .header{
-
     background-color: lightgrey;
     border-radius: 1rem;
-    place-items: center;
+    width: 99%;
     margin: 0 auto;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    width:100%;
-
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 .choosefile {
     background-color: rgb(81, 81, 81);
     color: white;
+    font-size: x-large;
 }
 .createpost {
     background-color: rgba(4, 4, 194, 0.886);
     color: white;
+    align-self: flex-end;
+    font-size: x-large;
 }
 .container {
-    display: flex; /* Use flexbox for horizontal alignment */
+    display: flex;
     flex-direction: row;
-    justify-content: space-between; /* Space between boxes */
-    align-items: stretch; /* Align boxes to the top */
+    justify-content: space-between;
+    align-items: stretch;
     margin: 0 auto;
     margin-top: 1%;
     margin-bottom: 1%;
     width: 100%;
 }
+p{
+    font-size: 1.5rem;
+}
 .box {
     background-color: lightgray;
     display: flex;
     flex-direction: column;
-    border-radius: 1rem;
+    border-radius: 2rem;
     align-items: center;
+    width: 60%;
+    height: 300px;
+    margin: 0 auto;
+    justify-content: space-evenly;
 }
-
-
 .subbox1 {
+    gap: 1rem;
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 .subbox2 {
-    place-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 h1 {
     color: black;
     text-align: left;
     margin-left: 20px;
+}
+.textarea {
+    width: 90%;
+    background-color: #f9f9f9;
+    outline: none;
 }
 
 .mainPage_button {
@@ -77,22 +93,22 @@ h1 {
     margin-left: 0;
 }
 
-.mainPage_buttonText {
+.header h1 {
     color: black;
     text-align: center;
     justify-content: left;
     font-family: "Times New Roman";
-    font-size: 3vw;
+    font-size: clamp(24px, 3vw, 48px);
+    min-font-size: 24px;
     margin: 0;
 }
 
 .header_container {
-    display: flex; /* Use flexbox for horizontal alignment */
+    display: flex; 
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
     margin: 0 auto;
-
 }
 
 .header_profilePic {
@@ -109,6 +125,7 @@ h1 {
     border-radius: 1rem;
     width: 15%;
     text-align: right;
+    margin: 5px;
 
 }
 
@@ -132,15 +149,6 @@ h1 {
     margin: 1vh;
 }
 
-.Date {
-    font-family: "Courier New";
-    color: dimgrey;
-    font-size: 16px;
-    margin-top: 5px;
-    text-align: right;
-    margin-right: 10px;
-
-}
 
 .postPic {
     width: 90%;
@@ -152,11 +160,6 @@ h1 {
 
 }
 
-.postText {
-    font-size: 3vw;
-    margin: 2vh;
-    margin-left: 5%;
-}
 
 .profilePic {
     border-radius: 1rem;
@@ -175,6 +178,21 @@ h1 {
 
 }
 
+.profilePic-date-container > p {
+    font-family: "Courier New";
+    color: dimgrey;
+    font-size: 16px;
+    margin-top: 5px;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.profilePic-date-container + p {
+    font-size: clamp(16px, 3vw, 48px);
+    margin: 2vh;
+    margin-left: 5%;
+}
+
 .likeButton {
     height: 8vh;
     width: auto;
@@ -183,6 +201,11 @@ h1 {
     margin-top: 5px;
     margin-bottom: 5px;
 }
+
+#christmas_Date {
+    color: crimson;
+    font-family: "Comic Sans MS";
+  }
 
 
 @media (max-width: 800px) {
