@@ -6,17 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>PostIT</title>
     <link href="login_style.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
 </head>
 
 <body>
 
-    <div id="header">
-        <!-- <p class="headerbutton">Home</p> -->
-        <button class="mainPage_button" type="button">Home</button>
-        <img id="userpicture" src="assets/user_without_pp.jpg" alt="users picture">
+    <header class="header">
+        <div class="header_container">
+            <button class="mainPage_button" onclick="window.location.href = 'login.html'">
+                <h1>Home</h1>
+            </button>
+            <img class="header_profilePic" src="src/Profiilipilt.jpeg" alt="">
+        </div>
 
-    </div>
-    <!-- <div class="centering"> -->
+
+    </header>
+
+
     <div class="loginbox">
         <p class="bold">Welcome to PostIT</p>
         <a class="linkbutton" id="createaccount" href="https://youtube.com">Create an account</a><br>
