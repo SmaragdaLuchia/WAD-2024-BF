@@ -1,3 +1,5 @@
+
+
 body {
     background-color: white;
     padding-top: 2%;
@@ -5,6 +7,7 @@ body {
     margin: 0 auto;
 }
 .header{
+
     background-color: lightgrey;
     border-radius: 2rem;
     width: 99%;
@@ -21,6 +24,16 @@ body {
     color: white;
     align-self: flex-end;
 }
+.container {
+    display: flex; /* Use flexbox for horizontal alignment */
+    flex-direction: row;
+    justify-content: space-between; /* Space between boxes */
+    align-items: stretch; /* Align boxes to the top */
+    margin: 0 auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    width: 100%;
+}
 .box {
     background-color: lightgray;
     display: flex;
@@ -33,6 +46,8 @@ body {
     margin: 0 auto;
     justify-content: space-between;
 }
+
+
 .subbox1 {
     display: flex;
     flex-direction: row;
@@ -43,10 +58,140 @@ body {
 h1 {
     color: black;
     text-align: left;
+    margin-left: 20px;
 }
-.textarea {
+
+.mainPage_button {
+    background-color: lightgray;
+    height: 8vh;
+    width: auto;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    border-radius: 1rem;
+    margin-left: 2%;
+}
+
+.mainPage_button:hover{
+    background-color: dodgerblue;
+}
+
+.mainPage_button:hover h1{
+    color: #e8e8e8;
+}
+
+.addPost_button{
+    margin-left: 0;
+}
+
+.mainPage_buttonText {
+    color: black;
+    text-align: center;
+    justify-content: left;
+    font-family: "Times New Roman";
+    font-size: 3vw;
+    margin: 0;
+}
+
+.header_container {
+    display: flex; /* Use flexbox for horizontal alignment */
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 auto;
 
 }
+
+.header_profilePic {
+    border-radius: 1rem;
+    height: 20vh;
+    width: auto;
+    max-height: 100px;
+    margin-left: auto;
+    margin-right: 1%;
+}
+
+.mainPage_verticalBox {
+    background-color: lightgray;
+    border-radius: 1rem;
+    width: 15%;
+    text-align: right;
+
+}
+
+.mainPage_centerBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    overflow: auto;
+}
+
+.mainPage_Post {
+    background-color: #e8e8e8;
+    border-radius: 1rem;
+    align-items: center;
+    width: 90%;
+    min-height: 10vh;
+    height: auto;
+    overflow: visible;
+    margin: 1vh;
+}
+
+.Date {
+    font-family: "Courier New";
+    color: dimgrey;
+    font-size: 16px;
+    margin-top: 5px;
+    text-align: right;
+    margin-right: 10px;
+
+}
+
+.postPic {
+    width: 90%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    border-radius: 1rem;
+
+}
+
+.postText {
+    font-size: 3vw;
+    margin: 2vh;
+    margin-left: 5%;
+}
+
+.profilePic {
+    border-radius: 1rem;
+    height: 20vh;
+    width: auto;
+    max-height: 80px;
+    margin-left: 5%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.profilePic-date-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.likeButton {
+    height: 8vh;
+    width: auto;
+    max-height: 50px;
+    margin-left: 5%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
 @media (max-width: 800px) {
     .flex-container {
       flex-direction: column;
