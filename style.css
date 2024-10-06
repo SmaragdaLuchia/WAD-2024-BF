@@ -93,7 +93,7 @@ h1 {
     margin-left: 0;
 }
 
-.mainPage_buttonText {
+.header h1 {
     color: black;
     text-align: center;
     justify-content: left;
@@ -149,15 +149,6 @@ h1 {
     margin: 1vh;
 }
 
-.Date {
-    font-family: "Courier New";
-    color: dimgrey;
-    font-size: 16px;
-    margin-top: 5px;
-    text-align: right;
-    margin-right: 10px;
-
-}
 
 .postPic {
     width: 90%;
@@ -169,11 +160,6 @@ h1 {
 
 }
 
-.postText {
-    font-size: clamp(16px, 3vw, 48px);
-    margin: 2vh;
-    margin-left: 5%;
-}
 
 .profilePic {
     border-radius: 1rem;
@@ -190,6 +176,21 @@ h1 {
     flex-direction: row;
     justify-content: space-between;
 
+}
+
+.profilePic-date-container > p {
+    font-family: "Courier New";
+    color: dimgrey;
+    font-size: 16px;
+    margin-top: 5px;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.profilePic-date-container + p {
+    font-size: clamp(16px, 3vw, 48px);
+    margin: 2vh;
+    margin-left: 5%;
 }
 
 .likeButton {
