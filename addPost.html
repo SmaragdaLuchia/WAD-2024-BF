@@ -9,20 +9,21 @@
   </head>
   <body>
     <header class="header">
-        <h1>Home</h1>
+        <div class="header_container">
+            <h1>Home</h1>
+            <img class="header_profilePic" src="src/Profiilipilt.jpeg" alt="">
+        </div>
     </header>
     <br>
-    <section>
+    <section class="wrapper">
         <div class="box">
             <div class="subbox1">
                 <p>Post<br>body</p>
-                <textarea class="textarea" id="textarea" name="textarea">
-                    textarea
-                </textarea>
+                <textarea class="textarea" id="textarea" name="textarea" placeholder="textarea"></textarea>
             </div>
             <div class="subbox1">
                 <p>Select<br>file</p>
-                <button type="choose file" class="choosefile">Choose file</button> 
+                <button type="choosefile" class="choosefile" name="choosefile">Choose file</button> 
             </div>
             <div class="subbox2">
                 <button type="create post" class="createpost" onclick="window.location.href = 'index.html'">Create post</button>
