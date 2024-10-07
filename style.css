@@ -4,7 +4,8 @@ body {
     padding-bottom: 2%;
     margin: 0 auto;
 }
-.header{
+
+.header {
     background-color: lightgrey;
     border-radius: 1rem;
     width: 99%;
@@ -12,17 +13,20 @@ body {
     padding-top: 2%;
     padding-bottom: 2%;
 }
+
 .choosefile {
     background-color: rgb(81, 81, 81);
     color: white;
     font-size: x-large;
 }
+
 .createpost {
     background-color: rgba(4, 4, 194, 0.886);
     color: white;
     align-self: flex-end;
     font-size: x-large;
 }
+
 .container {
     display: flex;
     flex-direction: row;
@@ -33,9 +37,11 @@ body {
     margin-bottom: 1%;
     width: 100%;
 }
-p{
+
+p {
     font-size: 1.5rem;
 }
+
 .box {
     background-color: lightgray;
     display: flex;
@@ -47,6 +53,7 @@ p{
     margin: 0 auto;
     justify-content: space-evenly;
 }
+
 .subbox1 {
     gap: 1rem;
     display: flex;
@@ -54,16 +61,19 @@ p{
     justify-content: center;
     align-items: center;
 }
+
 .subbox2 {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 h1 {
     color: black;
     text-align: left;
     margin-left: 20px;
 }
+
 .textarea {
     width: 90%;
     background-color: #f9f9f9;
@@ -81,15 +91,15 @@ h1 {
     margin-left: 2%;
 }
 
-.mainPage_button:hover{
+.mainPage_button:hover {
     background-color: dodgerblue;
 }
 
-.mainPage_button:hover h1{
+.mainPage_button:hover h1 {
     color: #e8e8e8;
 }
 
-.addPost_button{
+.addPost_button {
     margin-left: 0;
 }
 
@@ -99,12 +109,11 @@ h1 {
     justify-content: left;
     font-family: "Times New Roman";
     font-size: clamp(24px, 3vw, 48px);
-    min-font-size: 24px;
     margin: 0;
 }
 
 .header_container {
-    display: flex; 
+    display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
@@ -178,7 +187,7 @@ h1 {
 
 }
 
-.profilePic-date-container > p {
+.profilePic-date-container>p {
     font-family: "Courier New";
     color: dimgrey;
     font-size: 16px;
@@ -187,7 +196,7 @@ h1 {
     margin-right: 10px;
 }
 
-.profilePic-date-container + p {
+.profilePic-date-container+p {
     font-size: clamp(16px, 3vw, 48px);
     margin: 2vh;
     margin-left: 5%;
@@ -205,11 +214,11 @@ h1 {
 #christmas_Date {
     color: crimson;
     font-family: "Comic Sans MS";
-  }
+}
 
 
 @media (max-width: 800px) {
     .flex-container {
-      flex-direction: column;
+        flex-direction: column;
     }
 }
