@@ -1,26 +1,3 @@
-# WAD project
-
-## Homework 2
-
-create a json file that can store post information:
-
-
-### json post template
-```json
-{
-    "post_id": "",
-    "create_time": "",
-    "username": "",
-    "email": "",
-    "post_text": "",
-    "image_data": "",
-    "profile_picture_data": ""
-}
-```
-
-### json 10 mock posts
-
-```json
 [
     {
         "post_id": "1",
@@ -114,4 +91,3 @@ create a json file that can store post information:
     }
 ]
 
-```

@@ -33,13 +33,14 @@ body {
     justify-content: space-between;
     align-items: stretch;
     margin: 0 auto;
-    margin-top: 1%;
-    margin-bottom: 1%;
+    margin-top: 10px;
+    margin-bottom: 10px;
     width: 100%;
 }
 
 p {
     font-size: 1.5rem;
+    margin: 30px;
 }
 
 .box {
@@ -152,7 +153,7 @@ h1 {
     border-radius: 1rem;
     align-items: center;
     width: 90%;
-    min-height: 10vh;
+    /* min-height: 10vh; */
     height: auto;
     overflow: visible;
     margin: 1vh;
@@ -160,7 +161,9 @@ h1 {
 
 
 .postPic {
-    width: 90%;
+    /* max-width: 100%; */
+    max-height: 1000px;
+    width: auto;
     height: auto;
     display: block;
     margin: 0 auto;
@@ -172,18 +175,23 @@ h1 {
 
 .profilePic {
     border-radius: 1rem;
-    height: 20vh;
+    height: auto;
     width: auto;
     max-height: 80px;
-    margin-left: 5%;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin: 10px;
+}
+
+.userName {
+    margin: 0;
+    font-size: 24px !important;
+    font-weight: bold;
 }
 
 .profilePic-date-container {
     display: flex;
-    flex-direction: row;
+    align-items: center;
     justify-content: space-between;
+    margin: 10px;
 
 }
 
@@ -191,22 +199,18 @@ h1 {
     font-family: "Courier New";
     color: dimgrey;
     font-size: 16px;
-    margin-top: 5px;
-    text-align: right;
-    margin-right: 10px;
 }
 
-.profilePic-date-container+p {
-    font-size: clamp(16px, 3vw, 48px);
-    margin: 2vh;
-    margin-left: 5%;
+.profilePic-date-container>p+p {
+    margin: auto;
+    margin-right: 10px;
 }
 
 .likeButton {
     height: 8vh;
     width: auto;
     max-height: 50px;
-    margin-left: 5%;
+    margin-left: 25px;
     margin-top: 5px;
     margin-bottom: 5px;
 }

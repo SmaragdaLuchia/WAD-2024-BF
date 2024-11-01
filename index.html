@@ -1,75 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-<header class="header" >
-    <div class="header_container">
-        <button class="mainPage_button" onclick="window.location.href = 'login.html'">
-            <h1>Home</h1>
-        </button>
-        <button class="mainPage_button addPost_button" onclick="window.location.href = 'addPost.html'">
-            <h1>addPost</h1>
-        </button>
-        <img class="header_profilePic" src="src/Profiilipilt.jpeg" alt="">
+    <header class="header">
+        <div class="header_container">
+            <button class="mainPage_button" onclick="window.location.href = 'login.html'">
+                <h1>Home</h1>
+            </button>
+            <button class="mainPage_button addPost_button" onclick="window.location.href = 'addPost.html'">
+                <h1>addPost</h1>
+            </button>
+            <img class="header_profilePic" src="assets/Profiilipilt.jpeg" alt="">
+        </div>
+
+
+    </header>
+
+    <div class="container">
+        <div class="mainPage_verticalBox"></div>
+        <div class="mainPage_centerBox" id="mainPage_centerBox"></div>
+        <!-- <div class="mainPage_Post"> -->
+        <!--     <div class="profilePic-date-container"> -->
+        <!--         <img class="profilePic" src="assets/Profiilipilt.jpeg" alt=""> -->
+        <!--         <p>14th May 2023</p> -->
+        <!--     </div> -->
+        <!--     <p>OMG! Check out this webpage, you can take a test on which cookie are you! -->
+        <!--         <a href="https://www.buzzfeed.com/rachelysanders/what-kind-of-cookie-are-you">Link</a> -->
+        <!--     </p> -->
+        <!--     <img class="likeButton" src="assets/like.png" alt=""> -->
+        <!-- </div> -->
+        <div class="mainPage_verticalBox"></div>
     </div>
-
-
-</header>
-
-<div class="container">
-    <div class="mainPage_verticalBox"></div>
-    <div class="mainPage_centerBox">
-        <div class="mainPage_Post">
-            <div class="profilePic-date-container">
-                <img class="profilePic" src="src/Profiilipilt.jpeg" alt="">
-                <p>4th October 2024</p>
-            </div>
-            <p>Who left the lights on in the kitchen??</p>
-            <img class="likeButton" src="src/like.png" alt="">
-        </div>
-        <div class="mainPage_Post">
-            <div class="profilePic-date-container">
-                <img class="profilePic" src="src/Profiilipilt.jpeg" alt="">
-                <p>1st January 2024</p>
-            </div>
-            <p>Happy new year!!:)</p>
-            <img class="likeButton" src="src/like.png" alt="">
-        </div>
-        <div class="mainPage_Post">
-            <div class="profilePic-date-container">
-                <img class="profilePic" src="src/Profiilipilt.jpeg" alt="">
-                <p id="christmas_Date">🎄24th December 2023🎄</p>
-            </div>
-            <p>Have a holly-jolly christmas!</p>
-            <img class="likeButton" src="src/like.png" alt="">
-        </div>
-        <div class="mainPage_Post">
-            <div class="profilePic-date-container">
-                <img class="profilePic" src="src/Profiilipilt.jpeg" alt="">
-                <p>4th October 2023</p>
-            </div>
-            <img class="postPic" src="src/Kiisuke.jpeg" alt="">
-            <p>Look at my cute cat!! What an amazing kitty!</p>
-            <img class="likeButton" src="src/like.png" alt="">
-        </div>
-        <div class="mainPage_Post">
-            <div class="profilePic-date-container">
-                <img class="profilePic" src="src/Profiilipilt.jpeg" alt="">
-                <p>14th May 2023</p>
-            </div>
-            <p>OMG! Check out this webpage, you can take a test on which cookie are you!
-                <a href="https://www.buzzfeed.com/rachelysanders/what-kind-of-cookie-are-you">Link</a>
-            </p>
-            <img class="likeButton" src="src/like.png" alt="">
-        </div>
-    </div>
-    <div class="mainPage_verticalBox"></div>
-
-</div>
-<header class="header"></header>
+    <header class="header"></header>
+    <script src="fetchPostInfo.js"></script>
 </body>
+
 </html>
