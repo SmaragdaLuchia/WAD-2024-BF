@@ -4,7 +4,7 @@ body {
 
 #header {
     display: flex;
-    background-color: #BFBFBF;
+    background-color: #e6e6e6;
     width: auto;
     /* height: 250px; */
     font-size: 50px;
@@ -19,7 +19,7 @@ body {
 /**/
 /* } */
 .mainPage_button {
-    background-color: #BFBFBF;
+    background-color: #e6e6e6;
     width: auto;
     text-align: center;
     border: none;
@@ -30,7 +30,7 @@ body {
 }
 
 .mainPage_button:hover {
-    background-color: dodgerblue;
+    background-color: #ff8552;
 }
 
 
