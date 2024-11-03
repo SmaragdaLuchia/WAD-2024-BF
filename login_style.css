@@ -4,7 +4,7 @@ body {
 
 #header {
     display: flex;
-    background-color: #e6e6e6;
+    background-color: #90A583;
     width: auto;
     /* height: 250px; */
     font-size: 50px;
@@ -19,7 +19,7 @@ body {
 /**/
 /* } */
 .mainPage_button {
-    background-color: #e6e6e6;
+    background-color: #90A583;
     width: auto;
     text-align: center;
     border: none;
@@ -30,7 +30,7 @@ body {
 }
 
 .mainPage_button:hover {
-    background-color: #ff8552;
+    background-color: #24422F;
 }
 
 
@@ -47,7 +47,7 @@ body {
 .loginbox {
     margin-top: 40px;
     display: flex;
-    background-color: #D8D8D8;
+    background-color: #BFD3C1;
     width: 300px;
     font-size: 24px;
     border-radius: 15px;
@@ -85,14 +85,13 @@ body {
 }
 
 #loginbutton~a {
-
-    color: #00B0F0;
+    color: #24422F;
 }
 
 #loginbutton {
 
     color: white;
-    background-color: #1F477D;
+    background-color: #90A583;
     width: 80px;
     border: none;
     margin: auto;
@@ -104,7 +103,7 @@ body {
 }
 
 #createaccount {
-    color: #00B0F0;
+    color: #24422F;
 
 }
 
