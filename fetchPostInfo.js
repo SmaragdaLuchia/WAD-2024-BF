@@ -87,16 +87,16 @@ fetch('data.json')
 
             // Create HTML for each post
             postDiv.innerHTML = `
-<div class="mainPage_Post">
 <div class="profilePic-date-container">
-<img class="profilePic" src="assets/Profiilipilt.jpeg" alt="">
-<p class="userName">${post.username}</p>
-<p>${new Date(post.create_time).toLocaleString()}</p>
+    <div class="profileInfo">
+        <img class="profilePic" src="assets/Profiilipilt.jpeg" alt="">
+        <p class="userName">${post.username}</p>
+    </div>
+    <p class="theDateAndTime">${new Date(post.create_time).toLocaleString()}</p>
 </div>
 <p>${post.post_text}</p>
 ${post.image_data ? `<img src="${imageSrc}" alt="Post Image" class="postPic">` : ''}
 <img class="likeButton" src="assets/like.png" alt="">
-</div>
 `;
 
             // Append the post to the container
