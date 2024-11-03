@@ -16,7 +16,14 @@
             <button class="mainPage_button addPost_button" onclick="window.location.href = 'addPost.html'">
                 <h1>addPost</h1>
             </button>
-            <img class="header_profilePic" src="assets/Profiilipilt.jpeg" alt="">
+            <div class="dropdown">
+                <img onclick="myFunction()" class="dropdown" src="assets/Profiilipilt.jpeg" alt="">
+                <div id="myDropdown" class="dropdown-content">
+                    <p class="dropdown-text" id="username"></p>
+                    <p class="dropdown-text" id="useremail"></p>
+                    <a class="dropdown-text" id="logoutButton" href="login.html">logout</a>
+                </div>
+            </div> 
         </div>
 
 
@@ -38,7 +45,7 @@
         <div class="mainPage_verticalBox"></div>
     </div>
     <header class="header"></header>
-    <script src="fetchPostInfo.js"></script>
+    <script src="dropdown.js"></script>
 </body>
 
 </html>

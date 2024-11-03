@@ -17,7 +17,14 @@
             <button class="mainPage_button" onclick="window.location.href = 'index.html'">
                 <h1>Home</h1>
             </button>
-            <img class="header_profilePic" src="assets/Profiilipilt.jpeg" alt="">
+            <div class="dropdown">
+                <img onclick="myFunction()" class="dropdown" src="assets/Profiilipilt.jpeg" alt="">
+                <div id="myDropdown" class="dropdown-content">
+                    <p class="dropdown-text" id="username"></p>
+                    <p class="dropdown-text" id="useremail"></p>
+                    <a class="dropdown-text" id="logoutButton" href="login.html">logout</a>
+                </div>
+            </div> 
         </div>
     </header>
     <br>
@@ -39,6 +46,7 @@
     </section>
     <footer>
     </footer>
+    <script src="dropdown.js"></script>
 </body>
 
 </html>
